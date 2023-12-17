@@ -1,8 +1,8 @@
-import functions.IdentityFunction;
+import functions.SqrFunction;
 
 public class Main {
     public static void main(String[] args) {
-        IdentityFunction asd = new IdentityFunction();
+        SqrFunction asd = new SqrFunction();
         System.out.print(asd.apply(3));
 
     }
