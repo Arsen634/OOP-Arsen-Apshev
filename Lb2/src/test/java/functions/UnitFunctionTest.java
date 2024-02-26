@@ -8,7 +8,8 @@ public class UnitFunctionTest{
     @Test
     public void testEquals(){
         Assert.assertEquals(1.0    , test1.apply(4));
-        Assert.assertEquals(1.0    , test1.apply(5));
+        Assert.assertEquals(1.0    , test1.apply(-5));
         Assert.assertEquals(1.0    , test1.apply(4.3556));
+        Assert.assertEquals(1.0    , test1.apply(0));
     }
 }

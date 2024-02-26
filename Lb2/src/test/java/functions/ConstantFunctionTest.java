@@ -10,5 +10,6 @@ public class ConstantFunctionTest {
         Assert.assertEquals(2.64    , test1.apply(15));
         Assert.assertEquals(2.64    , test1.apply(154));
         Assert.assertEquals(2.64    , test1.apply(6555));
+        Assert.assertEquals(2.64    , test1.apply(-7));
     }
 }
